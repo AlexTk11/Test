@@ -61,7 +61,7 @@ int main() {
             close(sock);
             exit(1);
         }
-        printf("Матрица отправлена на сервер\n");
+        printf("matrix sent\n");
         print_matrix(matrix);
         sleep(5);
     }
